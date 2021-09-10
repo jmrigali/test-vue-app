@@ -19,6 +19,9 @@ app.use(awsServerlessExpressMiddleware.eventContext())
 app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Origin', '*')
   res.header('Access-Control-Allow-Headers', '*')
+  res.header('Content-Type', 'application/json')
+  res.header('Access-Control-Allow-Credentials', true) // Required for cookies, authorization headers with HTTPS
+
   next()
 })
 

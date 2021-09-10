@@ -18,7 +18,7 @@
       "function": {
         "testvueapplambda": {
           "deploymentBucketName": "amplify-testvueapp-dev-233821-deployment",
-          "s3Key": "amplify-builds/testvueapplambda-50364878396e53377649-build.zip"
+          "s3Key": "amplify-builds/testvueapplambda-4e7763647648426d6769-build.zip"
         }
       }
     }
