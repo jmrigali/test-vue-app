@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testvueapp-dev-233821-authRole",
+      "UnauthRoleArn": "arn:aws:iam::018349789769:role/amplify-testvueapp-dev-233821-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::018349789769:role/amplify-testvueapp-dev-233821-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-testvueapp-dev-233821-deployment",
+      "UnauthRoleName": "amplify-testvueapp-dev-233821-unauthRole",
+      "StackName": "amplify-testvueapp-dev-233821",
+      "StackId": "arn:aws:cloudformation:us-west-2:018349789769:stack/amplify-testvueapp-dev-233821/517d0740-11f9-11ec-90ce-06052694e12b",
+      "AmplifyAppId": "dy1skufq1l3vt"
+    },
+    "categories": {
+      "auth": {
+        "testvueapp923bf29c": {}
+      },
+      "function": {
+        "testvueapplambda": {
+          "deploymentBucketName": "amplify-testvueapp-dev-233821-deployment",
+          "s3Key": "amplify-builds/testvueapplambda-6952376f73413054494d-build.zip"
+        }
+      }
+    }
+  }
+}
