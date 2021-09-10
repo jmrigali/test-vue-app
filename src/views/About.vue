@@ -2,11 +2,21 @@
   <div class="about">
     <h1>This is Server Information</h1>
     <h2>{{ info.data }}</h2>
+
+    <div>
+      <CreateWorkout></CreateWorkout>
+    </div>
   </div>
 </template>
 <script>
   import axios from 'axios'
+  import CreateWorkout from '../components/CreateWorkout.vue'
+
   export default {
+    name: 'createWorkout',
+    components: {
+      CreateWorkout
+    },
     data() {
       return {
         info: ''
@@ -18,6 +28,7 @@
           .getSignInUserSession()
           .getIdToken()
           .getJwtToken()
+
         const config = {
           headers: {
             authorization: jwt
